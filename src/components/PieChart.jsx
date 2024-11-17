@@ -8,7 +8,7 @@ export default function PieChart() {
         <div className='pie-chart'>
             <ResponsivePie
                 data={pie}
-                innerRadius={.8}
+                innerRadius={.85}
                 padAngle={0.7}
                 activeOuterRadiusOffset={8}
                 borderWidth={1}
@@ -24,7 +24,10 @@ export default function PieChart() {
                 isInteractive={false}
             />
         </div>
-        <div className="text"><b>75%</b><br />course completed</div>
+        <div className="text">
+          <h3>75%</h3>
+          <p>course completed</p>
+        </div>
     </div>
   )
 }

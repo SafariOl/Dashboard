@@ -250,6 +250,23 @@ header nav input::placeholder {
   text-align: center;
   font-size: 17px;
   line-height: 17px;
+  transition: all 0.12s ease-in-out;
+}
+@media (hover: hover) {
+  .schedule-btn:hover {
+    background: #252325;
+    box-shadow: 0 0 5px #120008;
+    transform: scale(0.98);
+  }
+}
+
+.direct-btn {
+  transition: all 0.12s ease-in-out;
+}
+@media (hover: hover) {
+  .direct-btn:hover {
+    transform: scale(1.1) rotate(-15deg);
+  }
 }
 
 .title {
