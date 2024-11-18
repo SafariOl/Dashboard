@@ -12,14 +12,14 @@ body {
 .wrapper {
   margin: 0 auto;
   width: 100%;
-  max-height: 100vh;
   max-width: 1440px;
 }
 
 .sidebar_container {
   position: relative;
-  min-width: "268px";
-  min-height: "100vh";
+  width: 268px;
+  height: -moz-max-content;
+  height: max-content;
 }
 
 a {
@@ -148,7 +148,6 @@ button, input {
 }
 
 .home {
-  max-height: 100vh;
   padding: 0em 2em;
 }
 .home h2 {
