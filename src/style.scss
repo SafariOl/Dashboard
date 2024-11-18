@@ -138,6 +138,7 @@ button, input{
 .dashboard{
     display: flex;
     gap: 3em;
+    align-items: flex-start;
     justify-content: space-between;
 }
 
@@ -375,7 +376,7 @@ header{
     width: 100%;
     display: flex;
     flex-direction: column;
-    gap: 1.2em;
+    gap: 1.4em;
     margin-top: 1.5em;
 }
 
@@ -436,7 +437,6 @@ header{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-bottom: 2vh;
 }
 
 h3{
