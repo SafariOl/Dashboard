@@ -22,7 +22,7 @@ export default function Calendar() {
 
 
   return (
-    <div className='calendar' style={{width: '100%', background: '#FEE7A0', maxHeight: 350, padding: '1em', borderRadius: 20, position: 'relative', paddingBottom: '2.5em'}}>
+    <div className='calendar' style={{width: '100%', background: '#FEE7A0', padding: '1em', borderRadius: 20, position: 'relative', paddingBottom: '2.5em'}}>
         <FullCalendar
           plugins={[ interactionPlugin, dayGridPlugin ]}
           initialView="dayGridMonth"
