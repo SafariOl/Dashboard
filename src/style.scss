@@ -18,7 +18,7 @@ body{
 .sidebar_container{
     position: relative;
     width: 268px;
-    height: max-content
+    min-height: 100vh;
 }
 
 a{
