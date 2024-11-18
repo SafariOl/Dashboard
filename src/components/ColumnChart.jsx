@@ -49,7 +49,7 @@ export default function ColumnChart() {
             enableLabel={false}
             margin={{bottom: 30}}
             colors={(d) => {
-                return (d.index+1 == date || d.index + 1 == 7) ? '#452D89' : '#d6cad9'}}
+                return (d.index+1 == date || (d.index + 1 == 7 && date == 0)) ? '#452D89' : '#d6cad9'}}
         />
     </div>
   )

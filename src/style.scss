@@ -136,6 +136,7 @@ button, input{
 }
 
 .dashboard{
+    margin-top: 2em;
     display: flex;
     gap: 3em;
     align-items: flex-start;
@@ -377,7 +378,6 @@ header{
     display: flex;
     flex-direction: column;
     gap: 1.4em;
-    margin-top: 1.5em;
 }
 
 .home-block__header{
@@ -435,6 +435,7 @@ header{
 }
 .right-side-block{
     display: flex;
+    gap: 1.5em;
     flex-direction: column;
     justify-content: space-between;
 }

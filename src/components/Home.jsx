@@ -17,9 +17,9 @@ export default function Home() {
   return (
     <div className='home'>
         <HomeHeader />
-        <h2>Welcome back, Donald!</h2>
         <div className='dashboard'>
             <div className='tasks'>
+              <h2>Welcome back, Donald!</h2>
               <div className="combine-containers">
                 <PieChart />
                 <DailyTasks />
