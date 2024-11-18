@@ -16,6 +16,12 @@ body {
   max-width: 1440px;
 }
 
+.sidebar_container {
+  position: relative;
+  min-width: "268px";
+  min-height: "100vh";
+}
+
 a {
   text-decoration: none;
 }
@@ -374,6 +380,7 @@ header nav input::placeholder {
   display: flex;
   flex-direction: column;
   gap: 1.4em;
+  padding-bottom: 1.5em;
 }
 
 .home-block__header {

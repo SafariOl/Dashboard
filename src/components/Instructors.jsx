@@ -26,7 +26,7 @@ export default function Instructors() {
         {instructors.map(instructor => 
             <div className='instructor'>
                 <div className="instructor-logo">
-                    <img src={instructor.src} alt="instructor-logo" />
+                    <img src={instructor.src} loading='lazy' alt="instructor-logo" />
                 </div>
                 <div className='instructor-info'>
                     <p>{instructor.name}<br/>{instructor.role}</p>

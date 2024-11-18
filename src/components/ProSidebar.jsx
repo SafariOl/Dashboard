@@ -9,7 +9,7 @@ export default function ProSidebar() {
     return (
         <Sidebar 
             className='sidebar' 
-            style={{minWidth:'268px', height: '100vh'}}
+            style={{position: 'sticky', width: '100%', height: '100%', top: 0, left: 0}}
             backgroundColor='none'
         >
             <div className='sidebar-content'>
